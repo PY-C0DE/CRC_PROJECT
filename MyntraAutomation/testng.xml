@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Myntra Automation Suite">
+
+    <test name="Myntra Tests">
+
+        <classes>
+
+            <class name="tests.TC001_HomePageTest"/>
+            <class name="tests.TC002_TitleTest"/>
+            <class name="tests.TC003_URLTest"/>
+            <class name="tests.TC004_SearchBoxTest"/>
+            <class name="tests.TC005_SearchShoesTest"/>
+            <class name="tests.TC006_SearchTShirtTest"/>
+            <class name="tests.TC007_MenMenuTest"/>
+            <class name="tests.TC008_WomenMenuTest"/>
+            <class name="tests.TC009_KidsMenuTest"/>
+            <class name="tests.TC010_ProfileTest"/>
+            <class name="tests.TC011_WishlistTest"/>
+            <class name="tests.TC012_BagTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
